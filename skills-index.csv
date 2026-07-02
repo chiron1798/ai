@@ -1,5 +1,0 @@
-技能名称,触发关键词,状态,文件路径,最后更新版本号
-产品数字母版一致性生成,"主图,详情图,一致性,产品母版,SKU确认,Listing图文",active,skills/product-tem.md,v1.0
-主图生成,"主图,产品图,场景图",规划中,skills/main-image-generation.md,v1.0
-标题生成,"标题,SEO标题",规划中,skills/title-generation.md,v1.0
-详情页生成,"详情页,详情图文案",规划中,skills/detail-page-generation.md,v1.0

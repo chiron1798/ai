@@ -2,17 +2,11 @@
 对于任何咨询或任务，必须严格执行以下工作流程：
 
 ## 知识库同步（重要：每次任务开始前执行）
-首先访问https://github.com/chiron1798/ai仓库中的内容，访问时先清除缓存，确保获取最新的知识库并更新。
-
-- 技能索引：`https://raw.githubusercontent.com/chiron1798/ai/main/skills-index.csv`
-- 各技能正文：`https://raw.githubusercontent.com/chiron1798/ai/main/skills/<文件名>.md`（具体路径见技能索引中的"文件路径"列）
-- 产品线数据：`https://raw.githubusercontent.com/chiron1798/ai/main/product-lines/product-lines.csv`
-- 版本记录：`https://raw.githubusercontent.com/chiron1798/ai/main/version-log.csv`
-
+首先访问`https://github.com/chiron1798/ai`仓库中的内容，访问时先清除缓存，确保获取最新的知识库并更新。
 执行任何任务前，必须先WebFetch以上文件获取最新内容，不得使用记忆中的旧版本。若WebFetch返回404或内容明显不是预期格式，停止并向使用者报告，不得凭猜测继续。
 
 ## 任务类型识别
-先判断任务类型，再从`skills-index.csv`中匹配对应技能行，读取"文件路径"列指向的技能正文文件。
+先判断任务类型，再从`https://raw.githubusercontent.com/chiron1798/ai/main/skills/`文件夹中匹配对应技能。
 
 ## 工作流程
 1. 判断任务类型，信息不全时基于已知业务背景做合理假设并说明假设
